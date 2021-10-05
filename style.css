@@ -85,23 +85,6 @@ a:focus {
   text-align: center;
 }
 
-/* About section */
-.about-container {
-  display: flex;
-}
-.photo-container {
-  border: 1px solid var(--secondary-color);
-  width: auto;
-  border-radius: 50%;
-  background: var(--background);
-  box-shadow: var(--box-shadow);
-}
-
-/* Skills Section */
-.skills-container {
-  display: flex;
-}
-
 .image-container {
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
@@ -110,10 +93,11 @@ a:focus {
   width: auto;
   background: var(--background);
   box-shadow: var(--box-shadow);
+  text-align: center;
 }
 
 img {
-  height: 300px;
+  height: 450px;
   width: 300px;
 }
 
@@ -181,18 +165,6 @@ button:hover:not(.outline) {
 p {
   margin: 0;
   line-height: 25px;
-}
-
-/* Contact Section */
-.fab {
-  font-size: 100px;
-  margin-right: 50px;
-  cursor: pointer;
-  color: var(--primary-color);
-}
-
-.fab:hover {
-  color: var(--on-background);
 }
 
 /* Dark Mode Toggle */
